@@ -1,0 +1,15 @@
+# 1. Ignore Mac system folder settings
+.DS_Store
+
+# 2. Ignore all Mac debugging symbols
+*.dSYM/
+
+# 3. Target and ignore ONLY compiled Mac executables
+# (This matches files with no extension, but explicitly allows folders)
+*
+!*/
+!*.cpp
+!*.h
+!*.hpp
+!.gitignore
+!README.md
